@@ -81,7 +81,7 @@ struct ResetTimerView: View {
         Button(action: {
             currentTimer.reset()
         }, label: {
-            Text("Reset")
+            Text("TimerClass")
                 .font(.title)
                 .frame(maxWidth: .infinity, minHeight: Config.resetButtonHeight)
                 .background(Color.tdred)
